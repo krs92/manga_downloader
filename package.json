@@ -1,0 +1,25 @@
+{
+  "name": "manga-downloader-nodejs",
+  "version": "1.0.0",
+  "description": "Download Manga",
+  "main": "index.js",
+  "scripts": {
+    "start": "node manga"
+  },
+ "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxySpark/MangaFox-Manga-Downloader-NodeJS.git"
+  },
+ "bugs": {
+    "url": "https://github.com/MaxySpark/MangaFox-Manga-Downloader-NodeJS/issues"
+  },
+  "homepage": "https://github.com/MaxySpark/MangaFox-Manga-Downloader-NodeJS#readme",
+  "author": "MaxySpark",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "readline-sync": "^1.4.4",
+    "request": "^2.74.0",
+    "yargs": "^4.8.1"
+  }
+}
